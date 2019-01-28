@@ -1,0 +1,5 @@
+class LinkedIn {
+    def GetData = {
+
+    }
+}
