@@ -13,5 +13,7 @@ object Main extends App {
   })
   Await.result(futurePong, 5 seconds)
 
+  Pub.Publish();
+
   akkaSystem.shutdown()
 }
